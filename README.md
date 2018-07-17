@@ -1,5 +1,4 @@
 # PieView
 
-
-/Users/xiaolong/Documents/GitHub/PieView/pieview@2x.png
+PieView/img-folder/pieview@2x.png
 
