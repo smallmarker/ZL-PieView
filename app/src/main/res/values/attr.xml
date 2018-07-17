@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PieView">
+        <attr name="pv_outStrokeWidth" format="dimension"/>
+        <attr name="pv_inStrokeWidth" format="dimension"/>
+    </declare-styleable>
+</resources>
