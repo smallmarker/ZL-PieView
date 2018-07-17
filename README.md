@@ -1,5 +1,4 @@
 # PieView
 
-
-/Users/xiaolong/Documents/GitHub/PieView/pieview@2x.png
+![Image text](https://raw.githubusercontent.com/smallmarker/PieView/master/img-folder/pieview%402x.png)
 
