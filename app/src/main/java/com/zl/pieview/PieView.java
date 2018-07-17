@@ -70,14 +70,14 @@ public class PieView extends View {
         //获得外圆半径
         int mOutRadius = mCenterXY - mOutStrokeWidth / 2;
         RectF mRectF = new RectF(mCenterXY - mOutRadius, mCenterXY - mOutRadius, mCenterXY + mOutRadius, mCenterXY + mOutRadius);
-        //设置起始价角度
+        //设置起始角度
         int startAngle = 0;
         mPaint.setStrokeWidth(mOutStrokeWidth);
         for (PieBean mPieBean : pieBeans) {
-            float sweepAngle = 360 * mPieBean.value;
+            float sweepAngle = 360 * mPieBean.value + 1;
             mPaint.setColor(mPieBean.color);
             canvas.drawArc(mRectF,startAngle,sweepAngle,false,mPaint);
-            startAngle += sweepAngle;
+            startAngle += sweepAngle - 1;
         }
 
         //获取内圆半径
