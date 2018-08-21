@@ -9,13 +9,11 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private PieView mPieView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mPieView = findViewById(R.id.pieView);
+        PieView mPieView = findViewById(R.id.pieView);
         List<PieBean> pieBeans = new ArrayList<>();
         PieBean pieBean1 = new PieBean(Color.parseColor("#26d7bc"),0.25f);
         PieBean pieBean2 = new PieBean(Color.parseColor("#24bdee"),0.3f);

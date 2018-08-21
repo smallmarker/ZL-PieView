@@ -12,7 +12,7 @@ public class PieBean {
     public float value;
 
 
-    public PieBean(int color, float value) {
+    PieBean(int color, float value) {
         this.color = color;
         this.value = value;
     }
